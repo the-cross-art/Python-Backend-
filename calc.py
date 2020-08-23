@@ -1,3 +1,9 @@
+'''
+    Program:Magical calculator
+    Author:Imran
+    Copyright:2016
+'''
+
 import re
 
 print("Our Magical Calculator")
