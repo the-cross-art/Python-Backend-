@@ -21,7 +21,7 @@ class Person:
         self.maxmp = mp
         self.mp = mp
         self.atkl = atk - 10
-        self.atkh = atk - 10
+        self.atkh = atk + 10
         self.df = df
         self.magic = magic
         self.actions = ["Attack", "Magic"]
