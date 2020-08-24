@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbc678ac-d0b9-4b06-b914-bcda33c7ad00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/classes/magic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/classes/game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +32,13 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -111,22 +120,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="832" y="140" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834@0.0.1536.834" timestamp="1598256830441" />
-    <state width="1481" height="202" key="GridCell.Tab.0.bottom" timestamp="1598260367576">
+    <state width="711" height="207" key="GridCell.Tab.0.bottom" timestamp="1598285107161">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1481" height="202" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598260367576" />
-    <state width="1481" height="202" key="GridCell.Tab.0.center" timestamp="1598260367576">
+    <state width="711" height="207" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598285107161" />
+    <state width="711" height="207" key="GridCell.Tab.0.center" timestamp="1598285107161">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1481" height="202" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598260367576" />
-    <state width="1481" height="202" key="GridCell.Tab.0.left" timestamp="1598260367576">
+    <state width="711" height="207" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598285107161" />
+    <state width="711" height="207" key="GridCell.Tab.0.left" timestamp="1598285107161">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1481" height="202" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598260367576" />
-    <state width="1481" height="202" key="GridCell.Tab.0.right" timestamp="1598260367576">
+    <state width="711" height="207" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598285107161" />
+    <state width="711" height="207" key="GridCell.Tab.0.right" timestamp="1598285107161">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1481" height="202" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598260367576" />
+    <state width="711" height="207" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598285107161" />
     <state x="492" y="101" key="IDE.errors.dialog" timestamp="1598168185385">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

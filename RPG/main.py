@@ -1,14 +1,23 @@
 from classes.game import Person, bcolors
+from classes.magic import Spell
+import random
 
-magic = [{"name": "Fire", "cost": 10, "dmg": 100},
-         {"name": "Thunder", "cost": 10, "dmg": 124},
-         {"name": "Blizzard", "cost": 10, "dmg": 100}]
 
-player = Person(400, 65, 60, 34, magic)
+# Create Black Magic
+fire = Spell("Fire", 25, 600, "black")
+thunder = Spell("Thunder", 25, 600, "black")
+blizzard = Spell("Blizzard", 25, 600, "black")
+meteor = Spell("Meteor", 40, 1200, "black")
+quake = Spell("Quake", 14, 140, "black")
 
-# print(player.generate_spell_damage(0))
-# print(player.generate_spell_damage(1))
-enemy = Person(1200, 65, 45, 25, magic)
+# Create White Magic
+cure = Spell("Cure", 25, 620, "white")
+cura = Spell("Cura", 32, 1500, "white")
+curaga = Spell("Curaga", 50, 6000, "white")
+
+# Instantiate People
+player = Person(400, 65, 60, 34, [fire, thunder, blizzard, meteor, cure, cura])
+enemy = Person(1200, 65, 45, 25, [])
 
 running = True
 i = 0
@@ -28,19 +37,19 @@ while running:
     elif index == 1:
         player.choose_magic()
         magic_choice = int(input("Choose magic:")) - 1
-        magic_dmg = player.generate_spell_damage(magic_choice)
-        spell = player.get_spell_name(magic_choice)
-        cost = player.get_spell_mp_cost(magic_choice)
+
+        spell = player.magic[magic_choice]
+        magic_dmg = spell.generate_damage()
 
         current_mp = player.get_mp()
 
-        if cost > current_mp:
+        if spell.cost > current_mp:
             print(bcolors.FAIL + "\nNot enough MP \n" + bcolors.ENDC)
             continue
 
-        player.reduce_mp(cost)
+        player.reduce_mp(spell.cost)
         enemy.take_damage(magic_dmg)
-        print(bcolors.OKBLUE + "\n" + spell + "deals", str(magic_dmg), "points of damage" + bcolors.ENDC)
+        print(bcolors.OKBLUE + "\n" + spell.name + "deals", str(magic_dmg), "points of damage" + bcolors.ENDC)
 
     enemy_choice = 1
 
