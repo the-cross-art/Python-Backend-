@@ -2,6 +2,22 @@ from classes.game import Person, bcolors
 from classes.magic import Spell
 from classes.inventory import Item
 
+print("\n\n")
+print("NAME                      HP                                     MP")
+print("                          _________________________              __________")
+print(bcolors.BOLD + "Values:        "+
+      "210/460   |" + bcolors.OKGREEN + "█████████████            " + bcolors.ENDC + bcolors.BOLD
+      + "|     " +
+      "65/65  |" + bcolors.OKBLUE + "██████████" + bcolors.ENDC + "|")
+
+print("                          _________________________              __________")
+print("Values:        460/460   |                         |     65/65  |          |")
+
+print("                          _________________________              __________")
+print("Values:        460/460   |                         |     65/65  |          |")
+
+print("\n\n")
+
 # Create Black Magic
 fire = Spell("Fire", 25, 600, "black")
 thunder = Spell("Thunder", 25, 600, "black")
@@ -29,7 +45,7 @@ player_items = [{"item": potion, "quantity": 15}, {"item": hipotion, "quantity":
                 {"item": hielixer, "quantity": 2}, {"item": grenade, "quantity": 5}]
 
 # Instantiate People
-player = Person(400, 65, 60, 34, player_spells, player_items)
+player = Person(460, 65, 60, 34, player_spells, player_items)
 enemy = Person(1200, 65, 45, 25, [], [])
 
 running = True
