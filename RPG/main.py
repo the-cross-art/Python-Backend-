@@ -37,11 +37,11 @@ player3 = Person("Robot:", 3089, 174, 288, 34, player_spells, player_items)
 
 enemy1 = Person("Imp  ", 1250, 130, 560, 325, enemy_spells, [])
 enemy2 = Person("Magus", 18200, 701, 525, 25, enemy_spells, [])
-# enemy3 = Person("Imp  ", 1250, 130, 560, 325, enemy_spells, [])
+enemy3 = Person("Imp  ", 1250, 130, 560, 325, enemy_spells, [])
 
 players = [player1, player2, player3]
-enemies = [enemy1, enemy2]
-# enemies = [enemy1, enemy2, enemy3]
+# enemies = [enemy1, enemy2]
+enemies = [enemy1, enemy2, enemy3]
 
 running = True
 i = 0
